@@ -5,11 +5,11 @@ import InfoCard from "./UI/InfoCard";
 
 const CreateAndSellYourNftSection = () => {
   return (
-    <section className="px-32 mt-36 ">
-      <h3 className="text-white text-5xl font-bold mb-14 text-center">
+    <section className=" px-6 lg:px-12 xl:px-28 mt-24 lg:mt-44 ">
+      <h3 className="text-white text-2xl lg:text-5xl font-bold mb-14 text-center">
         Create and sell your NFTs
       </h3>
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid lg:grid-cols-3 gap-6">
         <InfoCard
           title="Set up your wallet"
           desc="Once you’ve set up your wallet of choice, connect it to OpenSea by

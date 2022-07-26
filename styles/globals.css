@@ -4,6 +4,6 @@
 
 @layer base {
   html {
-    @apply bg-dark max-w-[100rem] mx-auto;
+    @apply bg-dark max-w-[120rem] mx-auto;
   }
 }

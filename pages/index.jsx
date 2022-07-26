@@ -9,13 +9,13 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="relative w-full min-h-screen">
+    <div className="relative overflow-hidden">
       {/*For background blue blured circles and lines */}
-      <div className=" bg-[rgba(30,80,255,0.5)] w-[640px] h-[590px] blur-[700px] absolute top-0 left-0 -z-50"></div>
-      <div className=" bg-[rgba(30,80,255,0.5)] w-[640px] h-[590px] blur-[700px] absolute top-[80rem] right-0 -z-50"></div>
-      <div className=" bg-[rgba(30,80,255,0.5)] w-[640px] h-[590px] blur-[700px] absolute top-[160rem] left-0 -z-50"></div>
-      <div className=" bg-[rgba(30,80,255,0.5)] w-[640px] h-[590px] blur-[700px] absolute top-[240rem] right-0 -z-50"></div>
-      <div className="absolute w-full h-full grid grid-cols-5 px-24 -z-50">
+      <div className=" bg-[rgba(30,80,255,0.5)] w-full xl:w-[640px] h-[590px] blur-[700px] absolute top-0 left-0 -z-50"></div>
+      <div className=" bg-[rgba(30,80,255,0.5)] w-full xl:w-[640px] h-[590px] blur-[700px] absolute top-[120rem] xl:top-[80rem] right-0 -z-50"></div>
+      <div className=" bg-[rgba(30,80,255,0.5)] w-full xl:w-[640px] h-[590px] blur-[700px] absolute top-[240rem] xl:top-[160rem] left-0 -z-50"></div>
+      <div className=" bg-[rgba(30,80,255,0.5)] w-full xl:w-[640px] h-[590px] blur-[700px] absolute top-[360rem] xl:top-[240rem] right-0 -z-50"></div>
+      <div className="absolute w-full h-full grid grid-cols-5 xl:px-24 -z-50">
         <div className="border-x opacity-10"></div>
         <div className="border-r opacity-10"></div>
         <div className="border-r opacity-10"></div>

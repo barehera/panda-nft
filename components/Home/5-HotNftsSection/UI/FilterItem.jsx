@@ -5,7 +5,7 @@ const FilterItem = ({ title, active }) => {
     <button
       className={`${
         active && "bg-primary shadow-p"
-      } text-white border border-primary font-medium px-8 py-4  rounded-2xl`}
+      } text-white border border-primary text-sm lg:text-base font-medium px-4 lg:px-8 py-2 lg:py-4  rounded-2xl`}
     >
       {title}
     </button>
