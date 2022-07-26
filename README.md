@@ -9,10 +9,10 @@ https://www.figma.com/file/ITcXolJ8gXyr8oVq93dJGM/Panda-NFT---Community-Free-KIT
 
 Converted Pages:
 - Home (26.07.2022)
+- Responsive Home Page (26.07.2022)
 
 Pages on progress:
 - Discover Page
 - Detailed Product Pages
 - Responsive Discover Page
 - Responsive Detailed Product Pages
-- Responsive Home Page
