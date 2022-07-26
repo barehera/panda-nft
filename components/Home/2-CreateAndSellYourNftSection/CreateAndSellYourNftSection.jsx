@@ -22,21 +22,20 @@ const CreateAndSellYourNftSection = () => {
             clicking the wallet icon in the top right corner.
           </p>
         </article>
-        <div className="bg-gradient-to-t from-[rgba(255,255,255,0.2)]    p-[1px] -z-10 rounded-2xl">
-          <article className="flex flex-col items-center justify-center py-20 px-8 bg-dark rounded-2xl">
-            <div className="mb-16 relative flex items-center justify-center">
-              <Image src={infoIcon} className="z-10 bg-primary" />
-              <div className="absolute w-20 h-20 bg-primary rounded-full"></div>
-            </div>
-            <h5 className="text-white text-2xl font-bold mb-6 text-center">
-              Add your NFTs
-            </h5>
-            <p className="text-gray-300 text-sm text-center">
-              Once you’ve set up your wallet of choice, connect it to OpenSea by
-              clicking the wallet icon in the top right corner.
-            </p>
-          </article>
-        </div>
+
+        <article className="flex flex-col items-center justify-center py-20 px-8 bg-transparent rounded-2xl border border-[rgb(255,255,255,0.5)]">
+          <div className="mb-16 relative flex items-center justify-center">
+            <Image src={infoIcon} className="z-10 bg-primary" />
+            <div className="absolute w-20 h-20 bg-primary rounded-full"></div>
+          </div>
+          <h5 className="text-white text-2xl font-bold mb-6 text-center">
+            Add your NFTs
+          </h5>
+          <p className="text-gray-300 text-sm text-center">
+            Once you’ve set up your wallet of choice, connect it to OpenSea by
+            clicking the wallet icon in the top right corner.
+          </p>
+        </article>
 
         <article className="flex flex-col items-center justify-center py-14 px-8 bg-card  rounded-2xl">
           <div className="mb-16 relative flex items-center justify-center">
