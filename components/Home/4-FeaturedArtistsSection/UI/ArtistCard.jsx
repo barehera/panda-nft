@@ -5,9 +5,9 @@ import eth from "../../../../assets/eth-icon.svg";
 const ArtistCard = ({ data }) => {
   return (
     <article className="bg-card flex flex-col items-center justify-center rounded-2xl">
-      <div className="relative mb-16">
-        <Image src={data.bgImage} className="rounded-t-2xl" />
-        <div className="absolute -bottom-10 flex items-center justify-center w-full">
+      <div className="relative mb-16 w-full h-52">
+        <Image src={data.bgImage} className="rounded-t-2xl" layout="fill" />
+        <div className="absolute -bottom-12 flex items-center justify-center w-full">
           <Image src={data.image} />
         </div>
       </div>

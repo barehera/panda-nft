@@ -28,7 +28,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-      <button className="border border-primary w-40 h-14 rounded-lg">
+      <button className="border border-primary px-8 h-14 rounded-lg">
         Connect Wallet
       </button>
     </header>

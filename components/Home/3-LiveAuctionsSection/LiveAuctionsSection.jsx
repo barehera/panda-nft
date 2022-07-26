@@ -7,7 +7,7 @@ const LiveAuctionsSection = () => {
     <section className="px-32 mt-36 ">
       <div className="flex items-center justify-between mb-14">
         <h3 className="text-white text-5xl font-bold">Live Auctions</h3>
-        <button className="text-white border border-primary w-44 h-16 rounded-2xl">
+        <button className="text-white border border-primary px-12 h-16 rounded-2xl">
           View More
         </button>
       </div>
