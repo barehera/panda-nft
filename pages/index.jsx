@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from "../components/Header/Header";
 import HeroSection from "../components/Home/1-HeroSection/HeroSection";
 import CreateAndSellYourNftSection from "../components/Home/2-CreateAndSellYourNftSection/CreateAndSellYourNftSection";
 import LiveAuctionsSection from "../components/Home/3-LiveAuctionsSection/LiveAuctionsSection";

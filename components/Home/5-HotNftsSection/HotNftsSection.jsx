@@ -1,6 +1,7 @@
 import React from "react";
 import { nftData } from "../../../data/nftData";
 import NftCard from "../UI/NftCard";
+import FilterItem from "./UI/FilterItem";
 
 const HotNftsSection = () => {
   return (
@@ -8,24 +9,12 @@ const HotNftsSection = () => {
       <div className="flex items-center justify-between mb-14">
         <h3 className="text-white text-5xl font-bold">Hot NFTs</h3>
         <div className="flex gap-6 items-center">
-          <button className="text-white border border-primary font-medium px-8 py-4  rounded-2xl">
-            Music
-          </button>
-          <button className="text-white border bg-primary shadow-p border-primary font-medium px-8 py-4  rounded-2xl">
-            Art
-          </button>
-          <button className="text-white border border-primary font-medium px-8 py-4  rounded-2xl">
-            Sports
-          </button>
-          <button className="text-white border border-primary font-medium px-8 py-4  rounded-2xl">
-            Virtual
-          </button>
-          <button className="text-white border border-primary font-medium px-8 py-4  rounded-2xl">
-            Videos
-          </button>
-          <button className="text-white border border-primary font-medium px-8 py-4  rounded-2xl">
-            More
-          </button>
+          <FilterItem title="Music"></FilterItem>
+          <FilterItem title="Art" active={true}></FilterItem>
+          <FilterItem title="Sports"></FilterItem>
+          <FilterItem title="Virtual"></FilterItem>
+          <FilterItem title="Videos"></FilterItem>
+          <FilterItem title="More"></FilterItem>
         </div>
       </div>
       <div className="grid grid-cols-3 gap-x-6 gap-y-12 mb-14">
