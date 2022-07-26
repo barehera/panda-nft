@@ -25,7 +25,7 @@ export const liveAuctionsData = [
     liked: false,
   },
   {
-    id: 1,
+    id: 3,
     image: auction3,
     name: "Sherbet #3062",
     bid: "0.24 eTH",
