@@ -7,7 +7,7 @@ import NftDetails from "../../../components/Nft/2-NftDetails/Nftdetails";
 import AnotherNfts from "../../../components/Nft/3-AnotherNfts/AnotherNfts";
 import { nftData } from "../../../data/nftData";
 
-const index = () => {
+const DetailedNft = () => {
   const router = useRouter();
   const [singleNftData, setSingleNftData] = useState([]);
 
@@ -46,4 +46,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default DetailedNft;
