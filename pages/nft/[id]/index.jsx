@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header/Header";
 import NftInfo from "../../../components/Nft/1-NftInfo/NftInfo";
-import NftDetails from "../../../components/Nft/2-NftDetails/Nftdetails";
+import NftDetails from "../../../components/Nft/2-NftDetails/NftDetails";
 import AnotherNfts from "../../../components/Nft/3-AnotherNfts/AnotherNfts";
 import { nftData } from "../../../data/nftData";
 
