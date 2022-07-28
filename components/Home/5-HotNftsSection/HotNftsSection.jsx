@@ -1,6 +1,6 @@
 import React from "react";
 import { nftData } from "../../../data/nftData";
-import NftCard from "../UI/NftCard";
+import NftCard from "../../UI/NftCard";
 import FilterItem from "./UI/FilterItem";
 
 const HotNftsSection = () => {

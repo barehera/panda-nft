@@ -14,7 +14,7 @@ import creatorImage from "../assets/creator-image.png";
 
 export const nftData = [
   {
-    id: 90,
+    id: "90",
     image: nft1,
     name: "Dao Vinci #0000",
     bid: "4.89 eTH",
@@ -24,7 +24,7 @@ export const nftData = [
     liked: true,
   },
   {
-    id: 91,
+    id: "91",
     image: nft2,
     name: "Fangster #8668",
     bid: "2.19 eTH",
@@ -34,7 +34,7 @@ export const nftData = [
     liked: false,
   },
   {
-    id: 95,
+    id: "95",
     image: nft6,
     name: "Kershelle #9931",
     bid: "0.31 eTH",
@@ -44,7 +44,7 @@ export const nftData = [
     liked: false,
   },
   {
-    id: 92,
+    id: "92",
     image: nft3,
     name: "Bagi #2391",
     bid: "12.22 eTH",
@@ -54,7 +54,7 @@ export const nftData = [
     liked: true,
   },
   {
-    id: 93,
+    id: "93",
     image: nft4,
     name: "SalurdoSs #4200",
     bid: "1.1 eTH",
@@ -64,7 +64,7 @@ export const nftData = [
     liked: true,
   },
   {
-    id: 94,
+    id: "94",
     image: nft5,
     name: "Bedo44 #2141",
     bid: "14.99 eTH",
@@ -75,7 +75,7 @@ export const nftData = [
   },
 
   {
-    id: 96,
+    id: "96",
     image: nft7,
     name: "Cute Doge #4848",
     bid: "2.44 eTH",
@@ -85,7 +85,7 @@ export const nftData = [
     liked: true,
   },
   {
-    id: 97,
+    id: "97",
     image: nft8,
     name: "Cute Monkey #2341",
     bid: "4.89 eTH",
@@ -95,7 +95,7 @@ export const nftData = [
     liked: false,
   },
   {
-    id: 98,
+    id: "98",
     image: nft9,
     name: "Cute Astro #1346",
     bid: "31.29 eTH",
@@ -105,7 +105,7 @@ export const nftData = [
     liked: false,
   },
   {
-    id: 99,
+    id: "99",
     image: auction1,
     name: "Dao Vinci #0000",
     bid: "4.89 eTH",
@@ -115,7 +115,7 @@ export const nftData = [
     liked: true,
   },
   {
-    id: 100,
+    id: "100",
     image: auction2,
     name: "Fangster #8668",
     bid: "1.44 eTH",
@@ -125,7 +125,7 @@ export const nftData = [
     liked: false,
   },
   {
-    id: 101,
+    id: "101",
     image: auction3,
     name: "Sherbet #3062",
     bid: "0.24 eTH",

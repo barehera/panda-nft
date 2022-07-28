@@ -2,10 +2,15 @@ import React from "react";
 import Image from "next/image";
 import { AiOutlineHeart } from "react-icons/ai";
 import { AiFillHeart } from "react-icons/ai";
-import fireIcon from "../../../assets/fire-icon.svg";
+import fireIcon from "../../assets/fire-icon.svg";
+import { useRouter } from "next/router";
 const NftCard = ({ data }) => {
+  const router = useRouter();
   return (
-    <article className="bg-card p-6 rounded-2xl">
+    <article
+      onClick={() => router.push(`/nft/${data.id}`)}
+      className="bg-card p-6 rounded-2xl hover:scale-[1.02] transition-all duration-500 ease-out cursor-pointer"
+    >
       {/*Image container */}
       <div className="relative w-full h-80 mb-6">
         <Image src={data.image} layout="fill" className="rounded-2xl" />
@@ -45,7 +50,7 @@ const NftCard = ({ data }) => {
             {data.time}
           </p>
         </div>
-        <button className="w-full xl:w-auto bg-primary text-sm lg:text-base text-white font-semibold h-8 lg:h-12 px-6 lg:px-12 rounded-2xl shadow-p">
+        <button className="w-full xl:w-auto bg-primary text-sm lg:text-base text-white font-semibold h-8 lg:h-12 px-6 lg:px-12 rounded-2xl shadow-p hover:bg-transparent hover:border-primary hover:border transition-all duration-500 ease-out ">
           Bid
         </button>
       </div>

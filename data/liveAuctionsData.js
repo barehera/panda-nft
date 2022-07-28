@@ -5,7 +5,7 @@ import creatorImage from "../assets/creator-image.png";
 
 export const liveAuctionsData = [
   {
-    id: 1,
+    id: 99,
     image: auction1,
     name: "Dao Vinci #0000",
     bid: "4.89 eTH",
@@ -15,7 +15,7 @@ export const liveAuctionsData = [
     liked: true,
   },
   {
-    id: 2,
+    id: 100,
     image: auction2,
     name: "Fangster #8668",
     bid: "1.44 eTH",
@@ -25,7 +25,7 @@ export const liveAuctionsData = [
     liked: false,
   },
   {
-    id: 3,
+    id: 101,
     image: auction3,
     name: "Sherbet #3062",
     bid: "0.24 eTH",
