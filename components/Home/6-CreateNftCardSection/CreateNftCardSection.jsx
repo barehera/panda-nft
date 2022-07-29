@@ -3,7 +3,7 @@ import React from "react";
 const CreateNftCardSection = () => {
   return (
     <section className="px-6 lg:px-12 xl:px-28 my-20 lg:my-40">
-      <article className="py-12 bg-primary rounded-2xl flex flex-col items-center justify-center p-6 md:p-24 xl:p-36 text-center">
+      <article className="py-12 bg-primary rounded-2xl flex flex-col items-center justify-center p-6 md:p-12 xl:p-24 text-center">
         <h3 className="text-white text-2xl lg:text-5xl font-bold mb-6">
           Create Your Own NFT!
         </h3>
