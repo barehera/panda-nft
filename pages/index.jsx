@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       {/*For background blue blured circles and lines */}
       <div className=" bg-[rgba(30,80,255,0.5)] w-full xl:w-[640px] h-[590px] blur-[700px] absolute top-0 left-0 -z-50"></div>
       <div className=" bg-[rgba(30,80,255,0.5)] w-full xl:w-[640px] h-[590px] blur-[700px] absolute top-[120rem] xl:top-[80rem] right-0 -z-50"></div>
