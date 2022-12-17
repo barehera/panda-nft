@@ -1,3 +1,5 @@
+Fully responsive and pixel-perfect website built with ReactJS and Tailwind CSS using Figma Design.
+
 Website Link:
 https://panda-nft-barehera.vercel.app/
 
